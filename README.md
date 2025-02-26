@@ -25,7 +25,13 @@ pip install openai easyocr pillow rapidfuzz
 File Structure
 • main.py:            Main pipeline script
 • medicines.csv:      CSV database of medicine names
-• README.md:          This file
+• README.md:            This file
+
+Environment Setup
+1. Clone this repository.
+2. Create a new file in the project root named .env.
+3. Add your API key to the file using the following format:
+OPENAI_API_KEY="your_api_key_here"
 
 How to Run
 1. Prepare Your Prescription Image:
